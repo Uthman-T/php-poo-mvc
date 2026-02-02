@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>HOME PAGE</h1>
+    <h2>Lorem test</h2>
 </body>
 </html>
