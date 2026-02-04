@@ -10,12 +10,15 @@
 </head>
 <body>
 
-    <h1><?= $title ?></h1>
-    <h1><?= $description ?></h1>
-    <h1><?= $age ?></h1>
+<h1><?= $title ?></h1>
 
-    <img src="images/img.jpg" alt="Paysage" width="800">
+<h2>List of Users</h2>
+<?php foreach ($users as $user): ?>
+    <p><?= $user['username'] ?></p>
+<?php endforeach; ?>
 
-    <script src="assets/js/script.js"></script>
+<img src="images/img.jpg" alt="Paysage" width="800">
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>
