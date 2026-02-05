@@ -9,13 +9,19 @@ CREATE TABLE `user` (
     password VARCHAR(255) NOT NULL
 );
 
-DROP TABLE `contact`;
 
 CREATE TABLE `contact` (
     id INT PRIMARY KEY AUTO_INCREMENT,
     email VARCHAR(255) NOT NULL,
     subject VARCHAR(255) NOT NULL,
     message TEXT NOT NULL
+);
+
+CREATE TABLE product (
+    id INT PRIMARY KEY  AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    price FLOAT NOT NULL
 );
 
 #mdp: password
