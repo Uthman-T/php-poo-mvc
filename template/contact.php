@@ -1,12 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-</head>
-<body>
-
 <h1><?= $title ?> </h1>
 
 <form action="" method="post" novalidate>
@@ -33,11 +24,3 @@
 
     <button type="submit">Soumettre</button>
 </form>
-
-<!-- Ici je veux afficher les données de mon form -->
-<p><?= isset($email) ? $email : '' ?></p>
-<p><?= isset($subject) ? $subject : '' ?></p>
-<p><?= isset($message) ? $message : '' ?></p>
-
-</body>
-</html>
