@@ -17,6 +17,10 @@
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="/product/new">Produits</a>
+                </li>
+
             </ul>
 
             <form class="d-flex" role="search">
